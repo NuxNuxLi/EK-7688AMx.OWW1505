@@ -7,7 +7,7 @@
 	model = "Widora32M";
 
 	chosen {
-		bootargs = "console=ttyS0,115200";
+		bootargs = "console=ttyS2,57600";
 	};
 
 	memory@0 {

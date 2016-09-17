@@ -7,7 +7,7 @@
 	model = "MediaTek LinkIt Smart 7688";
 
 	chosen {
-		bootargs = "console=ttyS0,115200";
+		bootargs = "console=ttyS2,57600";
 	};
 
 	memory@0 {
