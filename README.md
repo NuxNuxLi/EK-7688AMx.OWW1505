@@ -29,6 +29,6 @@ openwrt-ramips-mt7688-Widora-squashfs-sysupgrade.bin
 
 # How to start AirKiss?
 
-0. Download [AirKissDebugger.apk](http://iot.weixin.qq.com/wiki/doc/wifi/AirKissDebugger.apk|AirKissDebugger.apk)
+0. Download [AirKissDebugger.apk](http://iot.weixin.qq.com/wiki/doc/wifi/AirKissDebugger.apk)
 0. Start AirKiss process -- `aac`
 0. Run AirKissDebugger.apk and input SSID and PASSWORD
