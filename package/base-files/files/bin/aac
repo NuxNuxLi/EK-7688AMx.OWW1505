@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#auto airkiss connect2ap, aac
+#run aac first, and go with AirKissDebugger,  http://iot.weixin.qq.com/wiki/doc/wifi/AirKissDebugger.apk
+airkiss > tmp_aac
+line=`awk 'END{print}' tmp_aac`
+echo $line
+ussid=`echo $line | awk '{print $4}'`
+upass=`echo $line | awk '{print $8}'`
+echo $ussid $upass
+sleep 2
+rm tmp_aac
+connect2ap $ussid $upass
