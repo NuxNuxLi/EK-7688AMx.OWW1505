@@ -9,7 +9,8 @@ define Profile/LinkIt7688
 	NAME:=LinkIt7688
 	PACKAGES:=\
 		kmod-usb-core kmod-usb2 kmod-usb-ohci \
-		uboot-envtools kmod-ledtrig-netdev
+		uboot-envtools kmod-ledtrig-netdev \
+		mt7628WIFI airkiss
 endef
 
 define Profile/LinkIt7688/Description
