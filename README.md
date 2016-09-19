@@ -5,9 +5,9 @@ $ sudo apt-get update
 $ sudo apt-get install git g++ make libncurses5-dev subversion libssl-dev gawk libxml-parser-perl unzip wget python \
 xz-utils vim
 ## 2.download the source use git
-$ git clone https://github.com/widora/openwrt_widora.git
+$ git clone https://github.com/NuxNuxLi/EK-7688AMx.OWW1505.git
 ## 3.update the feeds
-$ cd openwrt_widora
+$ cd EK-7688AMx.OWW1505
 $ ./scripts/feeds update -a
 
 $ ./scripts/feeds install -a
@@ -19,13 +19,13 @@ Target System(Ralink RT288x/RT3xxx) --->
 
 Subtarget(MT7688 based board) --->
 
-Target Profile(Widora) --->
+Target Profile(LinkIt7688) --->
 
 ## 5.make
 $ make -j4
 ## 6.image
 the binary image name like this in bin/ramips/:
-openwrt-ramips-mt7688-Widora-squashfs-sysupgrade.bin
+openwrt-ramips-mt7688-LinkIt7688-squashfs-sysupgrade.bin
 
 # How to start AirKiss?
 
