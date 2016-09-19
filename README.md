@@ -8,6 +8,7 @@ xz-utils vim
 $ git clone https://github.com/NuxNuxLi/EK-7688AMx.OWW1505.git
 ## 3.update the feeds
 $ cd EK-7688AMx.OWW1505
+
 $ ./scripts/feeds update -a
 
 $ ./scripts/feeds install -a
